@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         colorTrackTextView.setDirection(ColorTrackTextView.Direction.RIGHT_TO_LEFT);
         ValueAnimator valueAnimator = ObjectAnimator.ofFloat(0,1);
         valueAnimator.setDuration(3000);
-        valueAnimator.setInterpolator(new DecelerateInterpolator());//插值器 使快慢不均匀
+        valueAnimator.setInterpolator(new DecelerateInterpolator());//插值器 使快慢不均匀 11111
         valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
